@@ -1,0 +1,286 @@
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+ul{
+	padding-left: 0rem;
+}
+
+a:-webkit-any-link {
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+
+.desktopnav-upper{
+	height: 52px;
+	background-color: #202020;
+	display: flex;
+	justify-content: space-around;
+	border-bottom: 1px solid #393939;
+}
+
+
+.signin{
+
+	display: flex;
+	align-items: center;
+	border: 1px solid #393939;
+	border-bottom: none;
+	border-top: none;
+	height: 51px;
+	color: white;
+	padding: 0 25px;
+	font-size: 12px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	word-spacing: 1px;
+}
+
+.signin svg{
+	fill: white;
+	width: 20.33px;
+	margin-right: 6px;
+
+}
+
+
+.aside-zone{
+	display: flex;
+}
+
+.marvel-unlimited{
+	width: ;
+	color: white;
+	border: 1px solid #393939;
+	border-right: none;
+	border-bottom: none;
+	border-top: none;
+	display: flex;
+	align-items: center;
+	text-align:  center;
+	padding: 0 15px;
+}
+
+
+.unlimited-text span, p{
+	margin: 0px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+.unlimited-text p{	
+	font-size: 12px;
+}
+
+.unlimited-text span{
+	font-size: 10px;
+}
+
+.search{
+	width: 51px;
+	height: 51px;
+	border: 0.5px solid #393939;
+	border-bottom: none;
+	border-top: none;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.search svg {
+	width: 19px;
+	height: 19px;
+	color: white;
+
+}
+
+img.logo-unlimited{
+	width: 22px;
+	height: 25px;
+	margin: 0px 10px 0px 0px;
+}
+
+.navegacao{
+	width: 100%;
+	height: 40px;
+	background-color: #202020;
+}
+
+.container-navegacao{
+	display: flex;
+	justify-content: center;
+
+}
+
+.container-navegacao a{
+	padding: 0px 18px;
+	display: inline-block;
+	line-height: 38px;
+	text-transform:  uppercase;
+	font-size: 12px;
+	letter-spacing: 1px;
+}
+
+.container-navegacao a:hover{
+	border-bottom: 2px solid #c62429;
+}
+
+#carrouselMarvel{
+	background: black;
+	height: 86vh;
+}
+
+.carousel-inner img{
+	opacity: 1.5;
+	height: 86vh;
+	width: 100%;
+	z-index: 0;
+	opacity: 0.5;
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon{
+	height: 4rem;
+	background-size: 4rem;
+}
+
+.carousel-indicators [data-bs-target]{
+	width: 20px;
+	height: 5px;
+	background-color: red;
+}
+
+.marvel-comics{
+	width: 90%;
+	margin: auto;
+	margin-bottom: 30px;
+	background-color: white;
+}
+
+.marvel-comics h3{
+	margin-top: 30px;
+	margin-bottom: 50px;
+}
+
+.marvel-comics img{
+	height: 336px;
+	width: 224px;
+	box-shadow: 0px 25px 30px -15px rgba(0,0,0,0.6);
+}
+
+.marvel-comics h6{
+	margin-top: 25px;
+}
+
+.marvel-comics-colection{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.marvel-comics-colection div{
+	width: 224px;
+	margin-top: 30px;
+}
+
+.marvel-comics-colection div:hover{
+	color: red;
+}
+
+.marvel-comics-colection img:hover{
+	margin-top: -10px ;
+	margin-bottom: 10px;
+	transition: margin-top 0.25s,margin-bottom 0.25s;
+}
+
+.rodape{
+	padding: 80px 0px 30px;
+	background-color: black;
+	display: flex;
+	justify-content: space-around;
+	color: white;
+}
+
+.rodape-section1 {
+	display: flex;
+	justify-content: space-between;
+	gap: 60px;
+}
+
+.rodape-section1-logo{
+	width: 80px;
+	height: 115.55px;
+}
+
+.rodape-section1-list{
+	font-size: 14px;
+	letter-spacing: 1px;
+}
+
+.rodape-section1-list ul li{
+	list-style-type: none;
+	margin-bottom: 12px;
+}
+
+.rodape-section1-list2{
+	width: 120px;
+	font-weight: thin;
+}
+
+.rodape-section1-list2 a {
+	margin-bottom: 12px;
+	font-family:'Trebuchet MS', sans-serif;
+	font-size: 13px;
+	display: block;
+}
+
+
+.rodape-section1-list2 a:hover{
+	color: grey;
+}
+
+
+.rodape-section2-insider, .rodape-section2-unlimited{
+	display: flex;
+	margin-bottom: 30px;
+}
+
+
+.rodape-section2-insider img, .rodape-section2-unlimited img{
+	width: 55.27px;
+	height: 24.86px;
+	margin-right: 30px;
+}
+
+.rodape-section2-insider h6, .rodape-section2-unlimited h6{
+	font-size: 14px;
+	margin-bottom: 0px;
+}
+
+.rodape-section2-insider span, .rodape-section2-unlimited span{
+	font-family: 'Trebuchet MS', sans-serif;
+	font-size: 14px;
+	color: grey;
+}
+
+.marvel-social-medias{
+	width: 220px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.marvel-social-medias a{
+	fill: grey;
+	display: inline-block;
+	width: 50px;
+	height: 30px;
+	margin-top: 20px;
+}
+
+.marvel-social-medias a:hover{
+	fill: white;
+}
